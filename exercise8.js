@@ -1,5 +1,7 @@
 var http = require('http');
 var theUrl = process.argv[2];
+// made an array to store the viable
+//could have made string variable with +=
 var theArray = [];
 http.get(theUrl, function(response){
     response.setEncoding('utf8');

@@ -8,4 +8,4 @@ function myCallback(error, Filelist) {
     })
 }
 
-myModule(dir, ext, myCallback);
+myModule(dir, ext, myCallback); 
